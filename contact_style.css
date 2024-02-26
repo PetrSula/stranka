@@ -1,0 +1,96 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 0 1em;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+.logo_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    height: 3em;
+    width: auto;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 1em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    background-color: #efe9e4;
+    padding: 2em 0;
+}
+
+.contact-container {
+    display: flex;
+    align-items: center;
+}
+
+.contact-info {
+    flex: 1;
+    padding: 0 1em;
+}
+
+.contact-image img {
+    width: 500px; /* Adjust the width of the image as needed */
+    height: auto;
+    margin-right: 10em; /* Add space between the image and contact information */
+    border-radius: 2em; /* Rounded corners */
+}
+
+.contact-info h2 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.contact-info p {
+    margin-bottom: 0.5em;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
